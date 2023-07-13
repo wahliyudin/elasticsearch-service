@@ -1,0 +1,25 @@
+{
+    "name": "wahliyudin/elasticsearch-service",
+    "license": "MIT",
+    "require": {
+        "php": "^8.1",
+        "elasticsearch/elasticsearch": "^8.8",
+        "illuminate/database": "^10.15"
+    },
+    "autoload": {
+        "psr-4": {
+            "Wahliyudin\\ElasticsearchService\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "wahliyudin",
+            "email": "wahliyudinzein@gmail.com"
+        }
+    ],
+    "config": {
+        "allow-plugins": {
+            "php-http/discovery": true
+        }
+    }
+}
