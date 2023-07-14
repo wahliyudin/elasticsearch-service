@@ -78,9 +78,9 @@ class ElasticsearchBuilder extends ParamBuilder
 
     public function searchQueryString($keyword = null, int $size = 10)
     {
-        $params = $this->withoutType()->getParams();
+        $params = $this->withoutType()->size($size)->getParams();
         if ($keyword) {
-            $params = array_merge($params, $this->size($size)->queryString($keyword)->getParams());
+            $params = array_merge($params, $this->queryString($keyword)->getParams());
         }
         $response = $this->clientBuilder->search($params);
         return $response['hits']['hits'];
