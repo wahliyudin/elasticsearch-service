@@ -1,6 +1,6 @@
 <?php
 
-namespace WahliyudinElasticsearchService\Contracts;
+namespace Wahliyudin\ElasticsearchService\Contracts;
 
 interface ModelElasticsearchInterface
 {

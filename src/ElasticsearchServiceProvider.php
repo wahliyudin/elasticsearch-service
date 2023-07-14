@@ -1,10 +1,10 @@
 <?php
 
-namespace Yajra\DataTables;
+namespace Wahliyudin\ElasticsearchService;
 
 use Illuminate\Support\ServiceProvider;
 
-class ButtonsServiceProvider extends ServiceProvider
+class ElasticsearchServiceProvider extends ServiceProvider
 {
     /**
      * Bootstrap the application events.

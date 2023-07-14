@@ -1,6 +1,6 @@
 <?php
 
-namespace WahliyudinElasticsearchService;
+namespace Wahliyudin\ElasticsearchService;
 
 use Illuminate\Support\Arr;
 

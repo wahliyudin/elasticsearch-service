@@ -11,12 +11,17 @@
             "Wahliyudin\\ElasticsearchService\\": "src/"
         }
     },
-    "authors": [
-        {
-            "name": "wahliyudin",
-            "email": "wahliyudinzein@gmail.com"
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Wahliyudin\\ElasticsearchService\\ElasticsearchServiceProvider"
+            ]
         }
-    ],
+    },
+    "authors": [{
+        "name": "wahliyudin",
+        "email": "wahliyudinzein@gmail.com"
+    }],
     "config": {
         "allow-plugins": {
             "php-http/discovery": true

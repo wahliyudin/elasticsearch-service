@@ -1,11 +1,11 @@
 <?php
 
-namespace WahliyudinElasticsearchService;
+namespace Wahliyudin\ElasticsearchService;
 
 use Elastic\Elasticsearch\Client;
 use Elastic\Elasticsearch\ClientBuilder;
 use Illuminate\Database\Eloquent\Model;
-use WahliyudinElasticsearchService\Traits\CheckerTrait;
+use Wahliyudin\ElasticsearchService\Traits\CheckerTrait;
 
 class ElasticsearchBuilder extends ParamBuilder
 {

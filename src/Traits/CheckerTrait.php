@@ -1,10 +1,10 @@
 <?php
 
-namespace WahliyudinElasticsearchService\Traits;
+namespace Wahliyudin\ElasticsearchService\Traits;
 
 use Exception;
 use Illuminate\Database\Eloquent\Model;
-use WahliyudinElasticsearchService\Contracts\ModelElasticsearchInterface;
+use Wahliyudin\ElasticsearchService\Contracts\ModelElasticsearchInterface;
 
 trait CheckerTrait
 {
