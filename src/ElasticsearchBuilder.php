@@ -20,7 +20,7 @@ class ElasticsearchBuilder extends ParamBuilder
     public function __construct()
     {
         $this->clientBuilder = ClientBuilder::create()
-            ->setHosts(config('database.connections.elasticsearch.hosts'))
+            ->setHosts(config('elasticsearch-connection.hosts'))
             ->build();
     }
 
